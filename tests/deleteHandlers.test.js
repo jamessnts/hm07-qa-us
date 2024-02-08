@@ -11,6 +11,7 @@ test('Should return code 200', async () => {
 	} catch (error) {
 		console.error(error);
 	}
+	expect(actualStatusCode).toBe(200);
 });
 
 test('Response Body should contain...', async () => {
